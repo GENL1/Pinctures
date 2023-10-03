@@ -1,0 +1,25 @@
+body {
+   animation: Seizure 0.001s infinite;
+   background-color: red; 
+   font-family: sans-serif;
+}
+
+@media (prefers-reduced-motion) {
+    animation: none;
+}
+
+@keyframes Seizure {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: gainsboro;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+h1 {
+    color: red;
+}
